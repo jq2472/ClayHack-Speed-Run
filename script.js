@@ -1,3 +1,4 @@
+//allows the user to jump in accordance to clicking
 var sprite = document.getElementById("sprite");
 document.addEventListener("click", jump);
     function jump(){
@@ -9,6 +10,7 @@ function removeJump(){
     sprite.classList.remove("jump");
 }
 
+//prompts the screen of death when contact between sprites is made
 var deathcheck = setInterval(function() {
     let spriteTop = parseInt(window.getComputedStyle(sprite).getPropertyValue("top"));
     let mobLeft = parseInt(window.getConputedStyle(mob).getPropertyValue("left"));
