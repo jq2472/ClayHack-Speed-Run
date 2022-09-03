@@ -4,7 +4,7 @@ document.addEventListener("click", jump);
     function jump(){
         if(sprite.classList == "jump"){return;}
         sprite.classList.add("jump");
-        setTimeout(removeJump, 750); 
+        setTimeout(removeJump, 800); 
 };
 function removeJump(){
     sprite.classList.remove("jump");

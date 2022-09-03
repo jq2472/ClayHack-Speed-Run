@@ -27,10 +27,10 @@ header {
 }
 
 #sprite {
-    height: 350px;
+    height: 300px;
     z-index: 2;
     position: absolute;
-    top: 260px
+    top: 280px
 }
 
 #background {
@@ -52,7 +52,7 @@ header {
 }
 
 .jump{
-    animation: hop 750ms ease;
+    animation: hop 800ms ease;
 }
 
 @keyframes mob{
