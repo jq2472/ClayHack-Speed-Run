@@ -26,7 +26,7 @@ header {
 }
 
 #sprite {
-    height: 300px;
+    height: 400px;
     z-index: 2;
     position: absolute;
     top: 575px
@@ -40,8 +40,9 @@ header {
 
 @keyframes hop{
     0%{top: 575px;}
-    30%{top: 675px;}
-    70%{top: 675px;}
+    30%{top: 525px;}
+    50%{top: 500px}
+    70%{top: 525px;}
     100%{top: 575px;}
 }
 
