@@ -11,3 +11,8 @@ div {
     display: flex;
     justify-content: center;
 }
+
+#test {
+    background-color: blue;
+    width: 500px;
+}
