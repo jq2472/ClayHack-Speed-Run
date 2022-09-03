@@ -8,3 +8,13 @@ document.addEventListener("click", jump);
 function removeJump(){
     character.classList.remove("jump");
 }
+
+var deathcheck = setInterval(function() {
+    let characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
+    let mobLeft = parseInt(window.getConputedStyle(mob).getPropertyValue("left"));
+    if(mobLeft<20 && mobLeft>-20 && characterTop>=130){
+        mob.style.animation = "none";
+        alert("You died :p")
+        mob.style.animation = "mob 1s infinite linear"
+    }}
+    
