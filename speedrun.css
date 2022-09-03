@@ -6,13 +6,18 @@
 #titlescreen {
     width: 500px;
     margin: auto;
-    display: block
+    display: block;
 }
 
 header {
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+#mob {
+    height: 30px;
+}
+
 @keyframes hop{
     0%{top: 150px;}
     30%{top: 100px;}
