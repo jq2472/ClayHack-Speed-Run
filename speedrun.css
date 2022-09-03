@@ -16,6 +16,16 @@ header {
 
 #mob {
     height: 100px;
+    z-index: 2;
+}
+
+#character {
+    height: 100px;
+    z-index: 2;
+}
+
+#background {
+    z-index: 0;
 }
 
 @keyframes hop{
