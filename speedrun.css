@@ -19,14 +19,16 @@ header {
 
 #mob {
     height: 80px;
+    width: 50px;
     z-index: 2;
     position: absolute;
-    top: 0px;
-    animation: mob 1.5s infinite linear;
+    top: -70px;
+    animation: mob 1.3s infinite linear;
 }
 
 #sprite {
     height: 600px;
+    width: 300px;
     z-index: 2;
     position: absolute;
     top: 670px
@@ -47,7 +49,7 @@ header {
 }
 
 .jump{
-    animation: hop 280ms linear;
+    animation: hop 300ms linear;
 }
 
 @keyframes mob{
