@@ -39,10 +39,10 @@ header {
 }
 
 @keyframes hop{
-    0%{top: 150px;}
-    30%{top: 100px;}
-    70%{top: 100px;}
-    100%{top: 150px;}
+    0%{top: 575px;}
+    30%{top: 675px;}
+    70%{top: 675px;}
+    100%{top: 575px;}
 }
 
 .jump{
