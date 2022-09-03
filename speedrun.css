@@ -48,7 +48,7 @@ header {
 }
 
 .jump{
-    animation: hop 400ms linear;
+    animation: hop 200ms linear;
 }
 
 @keyframes mob{
