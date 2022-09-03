@@ -18,7 +18,7 @@ header {
 }
 
 #mob {
-    height: 200px;
+    height: 80px;
     z-index: 2;
     position: absolute;
     top: 575px;
@@ -26,7 +26,7 @@ header {
 }
 
 #sprite {
-    height: 400px;
+    height: 600px;
     z-index: 2;
     position: absolute;
     top: 575px
