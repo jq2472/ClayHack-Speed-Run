@@ -18,26 +18,24 @@ header {
 }
 
 #mob {
-    height: 100px;
+    height: 200px;
     z-index: 2;
-    position: relative;
-    animation: mob 2s infinite linear;
+    position: absolute;
+    top: 575px;
+    animation: mob 1.5s infinite linear;
 }
 
 #sprite {
-    height: 100px;
+    height: 300px;
     z-index: 2;
     position: absolute;
+    top: 575px
 }
 
 #background {
     z-index: 0;
     position: absolute;
     overflow-y: hidden;
-}
-
-nav {
-    display:inline
 }
 
 @keyframes hop{
