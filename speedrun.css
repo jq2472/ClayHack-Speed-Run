@@ -19,7 +19,7 @@ header {
     height: 100px;
     z-index: 2;
     position: relative;
-    animation: mob 1s infinite linear;
+    animation: mob 2s infinite linear;
 }
 
 #sprite {
@@ -46,6 +46,6 @@ header {
 }
 
 @keyframes mob{
-    0%{left: 500px}
+    0%{left: 700px}
     100%{left: -20px}
 }
