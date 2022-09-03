@@ -8,5 +8,7 @@
 }
 
 #titlescreen {
-    width: 500px
+    width: 500px;
+    margin: auto;
+    display: block
 }
