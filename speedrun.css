@@ -48,7 +48,7 @@ nav {
 }
 
 .jump{
-    animation: hop 300ms linear;
+    animation: hop 280ms linear;
 }
 
 @keyframes mob{
