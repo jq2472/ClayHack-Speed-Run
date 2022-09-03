@@ -36,6 +36,10 @@ header {
     overflow-y: hidden;
 }
 
+nav {
+    display:inline
+}
+
 @keyframes hop{
     0%{top: 150px;}
     30%{top: 100px;}
