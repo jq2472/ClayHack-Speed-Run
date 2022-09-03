@@ -16,6 +16,18 @@ header {
 
 #mob {
     height: 100px;
+    z-index: 2;
+}
+
+#character {
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+}
+
+#background {
+    z-index: 0;
+    position: absolute;
 }
 
 @keyframes hop{
