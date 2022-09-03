@@ -18,14 +18,12 @@ header {
     height: 100px;
     z-index: 2;
     position: relative;
-    top: -20px;
 }
 
 #character {
     height: 100px;
     z-index: 2;
     position: absolute;
-    top: -20px;
 }
 
 #background {
