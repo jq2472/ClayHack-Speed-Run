@@ -23,3 +23,8 @@ header {
 .jump{
     animation: hop 300ms linear;
 }
+
+@keyframes character{
+    0%{left: 500px}
+    100%{left: -20px}
+}
