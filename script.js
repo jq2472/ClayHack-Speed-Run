@@ -11,12 +11,12 @@ function removeJump(){
 }
 
 //prompts the screen of death when contact between sprites is made
-var deathcheck = setInterval(function() {
+var mob = document.getElementById("mob");
+function deathcheck(){}
     let spriteTop = parseInt(window.getComputedStyle(sprite).getPropertyValue("top"));
     let mobLeft = parseInt(window.getConputedStyle(mob).getPropertyValue("left"));
-    if(mobLeft<20 && mobLeft>-20 && spriteTop>=130){
-        mob.style.animation = "none";
+    if(mobLeft<20 && mobLeft>-20 && spriteTop>=290){
         alert("You died :p")
-        mob.style.animation = "mob 1s infinite linear"
-    }}
-)
+    }
+
+setInterval(checkDead, 10);
