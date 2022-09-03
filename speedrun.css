@@ -27,7 +27,7 @@ header {
 }
 
 #sprite {
-    height: 600px;
+    height: 80px;
     z-index: 2;
     position: absolute;
     top: 670px
