@@ -39,15 +39,20 @@ header {
     overflow-y: hidden;
 }
 
+.hop {
+    animation-name: hop;
+    animation-timing-function: ease;
+}
+
 @keyframes hop{
     0%   { transform: translateY(0); }
-    30%  { transform: translateY(-250px); }
-    50%  { transform: translateY(0); }
+    30%  { transform: translateY(-225px); }
+    50%  { transform: translateY(0px); }
     100% { transform: translateY(0); }
 }
 
 .jump{
-    animation: hop 200ms linear;
+    animation: hop 750ms linear;
 }
 
 @keyframes mob{
