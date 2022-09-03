@@ -1,20 +1,22 @@
-var character = document.getElementById("character");
+//allows the user to jump in accordance to clicking
+var sprite = document.getElementById("sprite");
 document.addEventListener("click", jump);
     function jump(){
-        if(character.classList == "jump"){return;}
-        character.classList.add("jump");
+        if(sprite.classList == "jump"){return;}
+        sprite.classList.add("jump");
         setTimeout(removeJump, 250); 
 };
 function removeJump(){
-    character.classList.remove("jump");
+    sprite.classList.remove("jump");
 }
 
+//prompts the screen of death when contact between sprites is made
 var deathcheck = setInterval(function() {
-    let characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
+    let spriteTop = parseInt(window.getComputedStyle(sprite).getPropertyValue("top"));
     let mobLeft = parseInt(window.getConputedStyle(mob).getPropertyValue("left"));
-    if(mobLeft<20 && mobLeft>-20 && characterTop>=130){
+    if(mobLeft<20 && mobLeft>-20 && spriteTop>=130){
         mob.style.animation = "none";
         alert("You died :p")
         mob.style.animation = "mob 1s infinite linear"
     }}
-    
+)

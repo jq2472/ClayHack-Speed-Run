@@ -46,6 +46,6 @@ header {
 }
 
 @keyframes mob{
-    0%{left: 700px}
+    0%{left: 500px} 
     100%{left: -20px}
 }
