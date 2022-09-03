@@ -16,7 +16,7 @@ function deathcheck(){}
     let spriteTop = parseInt(window.getComputedStyle(sprite).getPropertyValue("top"));
     let mobLeft = parseInt(window.getConputedStyle(mob).getPropertyValue("left"));
     if(mobLeft<20 && mobLeft>-20 && spriteTop>=290){
-        alert("You died :p")
+        alert("You died!")
     }
 
 setInterval(checkDead, 10);
